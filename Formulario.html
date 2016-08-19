@@ -1,0 +1,106 @@
+<html>
+<head lang="es">
+<style type="text/css">
+	h1 {font-family: tahoma;}
+	em{font-weight: bold;
+		color: black;}
+	h1{font-family: tahoma, sans-serif;}
+	h2 {font-family: arial;}
+	p {font-family: arial;
+		font-size: 12pt;}
+		.special {color:purple;}
+</style>
+</head>
+<body>
+	<h1>Solicitud de empleo</h1>
+	<form method="post" action="itesm.mx"> </form>
+	<p>
+		<label>Fecha: <input type="date" name="fecha" size="30"></label><br />
+		<label>Puesto que solicita y turno de su interés: <input type="text" name="pyt" size="50"></label><br />
+		<label>Sueldo: <input type="text" name="sueldo" size="10" maxlength="10"></label>
+	</p>
+	<h2>Datos Personales</h2>
+	<p>
+		<label>Apellido Paterno:<input type="text" name="aPaterno" size="25" maxlength="30"></label><br />
+		<label>Apellido Materno:<input type="text" name="aMaterno" size="25" maxlength="30"></label><br />
+		<label>Nombres:<input type="text" name="nombres" size="25" maxlength="30"></label><br />
+		<label>Edad:<input type="number" name="edad" size="25" maxlength="30"></label><br />
+		<label>Estatura:<input type="number" name="estatura" size="5" maxlength="5"></label><br />
+		<label>Peso:<input type="number" name="peso" size="5" maxlength="5"></label><br />
+		<label>Estado Civil:<input type="text" name="estadoCivil" size="15" maxlength="15"></label><br />
+
+		<label>Direccion:<input type="text" name="direccion" size="30" maxlength="45"></label><br />
+		<label>Codigo Postal:<input type="number" name="codigoPostal" size="8" maxlength="8"></label><br />
+		<label>Telefono:<input type="number" name="telefono" size="25" maxlength="30"></label><br />
+		<label>Sexo:<input type="text" name="sexo" size="25" maxlength="30"></label><br />
+
+		<label>Fecha de Nacimento:<input type="date" name="fechanac" size="25" maxlength="30"></label><br />
+		<label>Lugar de Nacimiento:<input type="text" name="lugarnac" size="25" maxlength="30"></label><br />
+		<label>Nacionalidad:<input type="text" name="nacionalidad" size="15" maxlength="15"></label><br />
+		<label>Vive con:</label>
+		<label>Padres<input type="radio" name="padres" size="5"></label>
+		<label>Familia<input type="radio" name="padres" size="5"></label>
+		<label>Solo<input type="radio" name="padres" size="5"></label> <br />
+
+		<label>Clave ????:<input type="text" name="clave" size="25" maxlength="30"></label><br />
+		<label>Correo Electronico:<input type="text" name="sexo" size="25" maxlength="30"></label><br />
+		<label>¿Tiene licencia de manejo?<input type="text" name="tlm" size="4" maxlength="4"></label><br />
+		<label>Registro Federal de Contribuyentes<input type="text" name="rfc" size="15" maxlength="20"></label><br />
+
+		<label>¿Como considera su estado de salud actual?</label>
+		<label>Bueno<input type="radio" name="salud" size="5"></label>
+		<label>Regular<input type="radio" name="salud" size="5"></label>
+		<label>Malo<input type="radio" name="salud" size="5"></label><br />
+		<label>¿Padece de alguna enfermedad crónica?</label>
+		<label>Si<input type="radio" name="encr" size="5"></label>
+		<label>No<input type="radio" name="encr" size="5"></label>
+		<label>¿Cual?<input type="text" name="cualen" size="15" maxlength="20"></label><br />
+
+		<label>¿Que deporte practica?<input type="text" name="quedeporte" size="15" maxlength="20"></label><br />
+		<label>¿Pertenece a algun club personal o social?<input type="text" name="cualen" size="15" maxlength="20"></label><br />
+		<label>¿Cual es su pasatiempo favorito?<input type="text" name="cualen" size="15" maxlength="20"></label><br />
+
+		<label>¿Cual es su meta en la vida?<input type="text" name="cualen" size="15" maxlength="20"></label><br />
+	</p>
+	<h2>Datos Familiares</h2>
+	<table>
+		<tr>
+			<td></td>
+			<td>Nombre</td>
+			<td>Vive</td>
+			<td>Finado</td>
+			<td>Domicilio</td>
+			<td>Ocupacion</td>
+		</tr>
+		<tr>
+			<td>Padre</td>
+			<td><input type="text" name="nPadre"></td>
+			<td><input type="text" name="pvive"></td>
+			<td><input type="text" name="pfinado"></td>
+			<td><input type="text" name="pocupacion"></td>
+		</tr>
+		<tr>
+			<td>Madre</td>
+			<td><input type="text" name="nMadre"></td>
+			<td><input type="text" name="mvive"></td>
+			<td><input type="text" name="mfinado"></td>
+			<td><input type="text" name="mocupacion"></td>
+		</tr>
+		<tr>
+			<td>Esposo(a)</td>
+			<td><input type="text" name="nEsposo"></td>
+			<td><input type="text" name="evive"></td>
+			<td><input type="text" name="efinado"></td>
+			<td><input type="text" name="eocupacion"></td>
+		</tr>
+		<tr>
+			<td>Hijo(a)</td>
+			<td><input type="text" name="nHijo"></td>
+			<td><input type="text" name="hvive"></td>
+			<td><input type="text" name="hfinado"></td>
+			<td><input type="text" name="hocupacion"></td>
+		</tr>
+	</table>
+	<p class="special">Este estilo es por parte de una clase aparte del predeterminado para los demás parrafos.</p>
+</body>
+<html>
